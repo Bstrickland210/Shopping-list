@@ -13,6 +13,7 @@
 		F307C541276E7C950010936D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F307C53F276E7C950010936D /* Main.storyboard */; };
 		F307C543276E7C960010936D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F307C542276E7C960010936D /* Assets.xcassets */; };
 		F307C546276E7C960010936D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F307C544276E7C960010936D /* LaunchScreen.storyboard */; };
+		F3A317562790A48D000ABE04 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A317552790A48D000ABE04 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F307C542276E7C960010936D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F307C545276E7C960010936D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F307C547276E7C960010936D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A317552790A48D000ABE04 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F307C53B276E7C950010936D /* SceneDelegate.swift */,
 				F307C53D276E7C950010936D /* ViewController.swift */,
 				F307C53F276E7C950010936D /* Main.storyboard */,
+				F3A317552790A48D000ABE04 /* Item.swift */,
 				F307C542276E7C960010936D /* Assets.xcassets */,
 				F307C544276E7C960010936D /* LaunchScreen.storyboard */,
 				F307C547276E7C960010936D /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A317562790A48D000ABE04 /* Item.swift in Sources */,
 				F307C53E276E7C950010936D /* ViewController.swift in Sources */,
 				F307C53A276E7C950010936D /* AppDelegate.swift in Sources */,
 				F307C53C276E7C950010936D /* SceneDelegate.swift in Sources */,
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Shopping-list";
+				PRODUCT_BUNDLE_IDENTIFIER = "FuturesLab.Shopping-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Futures-Lab.Shopping-list";
+				PRODUCT_BUNDLE_IDENTIFIER = "FuturesLab.Shopping-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
